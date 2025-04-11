@@ -12,7 +12,7 @@ else()
 
         file(DOWNLOAD https://dl.bintray.com/boostorg/release/1.67.0/source/boost_1_67_0.tar.bz2
             ${PROJECT_SOURCE_DIR}/extlib/boost_1_67_0.tar.bz2
-            EXPECTED_HASH SHA256=2684c972994ee57fc5632e03bf044746f6eb45d4920c343937a465fd67a5adba
+            EXPECTED_HASH SHA256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
             STATUS JARNGREIPR_DOWNLOAD_BOOST_STATUS)
 
         # check status
